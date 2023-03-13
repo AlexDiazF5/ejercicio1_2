@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="logo">logo</div>
+        <div>
+            <a href="#" class="burguer_btn" onClick="abrirMenu()">=</a>
+            <nav class="nav_desktop">
+                <span>Home</span>
+                <span>About</span>
+                <span>Contact</span>
+                <span>Home</span>
+                <span>About</span>
+                <span>Contact</span>
+            </nav>
+        </div>
+    </div>
+    <nav class="nav_mobile">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="footer">
+        <div class="grande">Contenido 1</div>
+        <div class="pequenio">Contenido 2</div>
+        <div class="pequenio">Contenido 3</div>
+    </div>
+
+    <div class="principal">
+        <h2>Titulo</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate accusamus, dolorum fuga blanditiis dolor inventore ex nam minima nostrum error, aspernatur facere, soluta quas! Beatae totam sint repellat cupiditate tempore magnam quo aspernatur eos iste voluptate quam inventore quod, optio delectus sequi mollitia ipsam saepe quae earum ex deleniti distinctio, velit quidem doloribus. At nesciunt sed nihil exercitationem, error et harum. Sequi animi repudiandae soluta error deserunt corporis praesentium, quaerat recusandae fuga atque nam reprehenderit ratione ea necessitatibus ullam numquam dignissimos totam quas doloremque perspiciatis nostrum consequatur repellendus doloribus? Nemo corporis consectetur similique veritatis tempore qui magni quidem totam laudantium. Laboriosam, rerum ab saepe veritatis eos molestias quaerat quis accusamus quidem distinctio neque repudiandae, laudantium natus accusantium corrupti fugit vero earum eveniet, voluptatibus molestiae hic minima itaque. Dolores unde provident repudiandae quo quis rem maxime! Saepe iste doloribus veritatis iusto tenetur debitis ducimus qui, consequuntur voluptatem hic quas est dicta vero voluptatibus quam tempora dolores aut sunt quos laboriosam voluptate molestias. Similique placeat temporibus laboriosam? Corporis dicta dolor officia, quo sed nesciunt, magnam veniam ipsa, nobis excepturi praesentium soluta corrupti molestias itaque! Ipsa error repellendus dolorum? Neque quod, autem reiciendis, est ipsa cum ad quisquam laudantium rem fugit deserunt!
+        </p>
+
+    </div>
+
+
+    <script>
+
+        function abrirMenu(){
+            if(document.querySelector(".nav_mobile").style.display == "none"){
+                document.querySelector(".nav_mobile").style.display = "block";
+            }else{
+                document.querySelector(".nav_mobile").style.display = "none";
+            }
+
+        }
+    </script>
+</body>
+</html>
